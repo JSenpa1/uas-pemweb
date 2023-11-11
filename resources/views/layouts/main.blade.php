@@ -8,11 +8,20 @@
     @vite('resources/css/app.css')
 </head>
 <body>
+    <nav>
+        <h1>Ini Navbar</h1>
+    </nav>
+
     {{-- Ini Yang Di Edit Ya Front Enders --}}
-    <div class="container mx-6 mt-6">
-        <h1 class="text-3xl font-bold underline">Hello World</h1>
-        @yield('content')
-        @yield('footer')
+    <div class="flex flex-col min-h-screen">
+        <div class="container mx-6 mt-6">
+            <h1 class="text-3xl font-bold underline">Sekolah</h1>
+            @yield('content')
+        </div>
+
+        <footer class="mt-auto">
+            @yield('footer')
+        </footer>
     </div>
 </body>
 </html>

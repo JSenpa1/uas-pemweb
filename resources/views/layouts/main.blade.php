@@ -70,6 +70,9 @@
                         <a href="#" class="hover:underline me-4 md:me-6">Data Guru</a>
                     </li>
                     <li>
+                        <a href="#" class="hover:underline me-4 md:me-6">Kontak</a>
+                    </li>
+                    <li>
                         <a href="#" class="hover:underline">Pendafaran</a>
                     </li>
                 </ul>
@@ -78,6 +81,8 @@
             <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">TK Az-Zahra</a>. All Rights Reserved.</span>
         </div>
     </footer>
+
+
     </div>
 </body>
 </html>

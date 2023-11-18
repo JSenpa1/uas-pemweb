@@ -72,6 +72,9 @@
                         <a href="#" class="hover:underline me-4 md:me-6">Data Guru</a>
                     </li>
                     <li>
+                        <a href="#" class="hover:underline me-4 md:me-6">Kontak</a>
+                    </li>
+                    <li>
                         <a href="#" class="hover:underline">Pendafaran</a>
                     </li>
                 </ul>
@@ -81,6 +84,7 @@
         </div>
     </footer>
 
+ 
     </div>
 </body>
 </html>

@@ -9,12 +9,19 @@
 </head>
 <body>
     <nav>
-        <h1>Ini Navbar Hello World</h1>
+        <div>
+            <h1>Logo</h1>
+        </div>
+        <div>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
     </nav>
-
-    {{-- Ini Yang Di Edit Ya Front Enders --}}
-
-    {{-- Ini Navbar --}}
 
     <div class="container mx-6 mt-6">
         <h1 class="text-3xl font-bold underline">Hello World</h1>

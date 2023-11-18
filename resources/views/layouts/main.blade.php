@@ -8,6 +8,10 @@
     @vite('resources/css/app.css')
 </head>
 <body>
+    <nav>
+        <h1>Ini Navbar</h1>
+    </nav>
+
     {{-- Ini Yang Di Edit Ya Front Enders --}}
 
     {{-- Ini Navbar --}}

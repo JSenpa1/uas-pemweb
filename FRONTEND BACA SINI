@@ -1,0 +1,14 @@
+cara install:
+ganti .env.example jadi .env atau bikin .env isinya dari .env.example
+(run di terminal)
+composer install
+php artisan key:gen
+php artisan migrate
+npm install
+npm run build
+php artisan serve
+
+
+pergi ke folder yang namanya resources abis itu views, nah disitu ada folder layouts yang jadi outline buat sebuah page, nanti itu gw minta taro navbar disitu.
+yang kalian bikin tiap page itu ada di FrontEnd, nah section content itu isi dari website, kalau section
+footer itu footer website kita.

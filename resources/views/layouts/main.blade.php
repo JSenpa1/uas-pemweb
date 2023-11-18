@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav>
-        <h1>Ini Navbar</h1>
+        <h1>Ini Navbar Hello World</h1>
     </nav>
 
     {{-- Ini Yang Di Edit Ya Front Enders --}}

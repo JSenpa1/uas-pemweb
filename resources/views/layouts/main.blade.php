@@ -8,10 +8,11 @@
     @vite('resources/css/app.css')
 </head>
 <body>
+    <div class="flex flex-col min-h-full">
     <header class="bg-blue-400">
         <nav class="flex justify-between items-center w-[92%]  mx-auto">
             <div>
-                <img class="w-16 cursor-pointer" src="https://cdn-icons-png.flaticon.com/512/5968/5968204.png" alt="...">
+                <img class="w-16 cursor-pointer" src="{{ asset('logo.png') }}" alt="...">
             </div>
             <div
                 class="nav-links duration-500 md:static absolut md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
@@ -47,15 +48,12 @@
         }
     </script> --}}
 
-    <div class="container mx-6 mt-6">
-        <h1 class="text-3xl font-bold underline">Hello World</h1>
+    <div>
         @yield('content')
     </div>
-    <div>
 
-
-    <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
-        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+    <footer class="bg-white rounded-b-lg shadow dark:bg-gray-900">
+        <div class="w-full mx-auto p-4 md:py-8">
             <div class="sm:flex sm:items-center sm:justify-between">
                 <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                     <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
@@ -84,7 +82,7 @@
         </div>
     </footer>
 
- 
+
     </div>
 </body>
 </html>

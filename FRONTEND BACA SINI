@@ -4,6 +4,7 @@ ganti .env.example jadi .env atau bikin .env isinya dari .env.example
 composer install
 php artisan key:gen
 php artisan migrate
+php artisan db:seed
 npm install
 npm run build
 php artisan serve

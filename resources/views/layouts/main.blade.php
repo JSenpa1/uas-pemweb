@@ -10,7 +10,7 @@
 <body>
     <div class="flex flex-col min-h-full" style="background-color:#87BD2F;">
     <header class="bg-blue-400">
-        <nav class="flex justify-between items-center w-[92%]  mx-auto">
+        <nav class="flex justify-between items-center w-[92%] mx-auto">
             <div>
                 <img class="w-16 cursor-pointer" src="{{ asset('logo.png') }}" alt="...">
             </div>
@@ -34,11 +34,55 @@
                     </li>
                 </ul>
             </div>
-            <div class="flex items-center gap-6">
-                <button class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Sign in</button>
-                <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+            {{-- @if(Route::has('login'))
+            @auth
+            <div>
+                <a href="{{ url('/dashboard') }}" class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Dashboard</a>
             </div>
+            @else
+                <div class="">
+                    <button class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]" onclick="window.location.href='{{ route('login') }}'">Sign in</button>
+                    <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+                </div>
+
+                @if (Route::has('register'))
+                <div>
+                    <a href="{{ route('register') }}" class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Register</a>
+                </div>
+                @endif
+            @endauth
+            @endif --}}
+            <div>
+            @if (Route::has('login'))
+                <div class="flex flex-wrap gap-4">
+                    @auth
+                        <a href="{{ url('/dashboard') }}" class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Dashboard</a>
+                    @else
+                        <a href="{{ route('login') }}" class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Log in</a>
+
+                        @if (Route::has('register'))
+                            <a href="{{ route('register') }}" class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Register</a>
+                        @endif
+                    @endauth
+                </div>
+            @endif
+            </div>
+        </nav>
     </header>
+
+    {{-- @if (Route::has('login'))
+                <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
+                    @auth
+                        <a href="{{ url('/dashboard') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dashboard</a>
+                    @else
+                        <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log in</a>
+
+                        @if (Route::has('register'))
+                            <a href="{{ route('register') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Register</a>
+                        @endif
+                    @endauth
+                </div>
+            @endif --}}
 
     {{-- <script>
         const navLinks = document.querySelector('.nav-links')

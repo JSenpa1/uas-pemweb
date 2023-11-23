@@ -19,11 +19,11 @@ Route::get('/', function () {
     return view('FrontEnd.TK');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/home', [AccountController::class, 'index']);
+Route::get('/home', [AccountController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::get('/admin/dashboard', function() {
     return view('admin.adminPage');

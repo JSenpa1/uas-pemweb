@@ -23,7 +23,7 @@ class AccountController extends Controller
 
             if($usertype == 'user')
             {
-                return view('FrontEnd.TK');
+                return view('dashboard');
             }
 
             else 

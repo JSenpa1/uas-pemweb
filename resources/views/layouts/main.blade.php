@@ -37,7 +37,7 @@
             {{-- @if(Route::has('login'))
             @auth
             <div>
-                <a href="{{ url('/dashboard') }}" class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Dashboard</a>
+                <a href="{{ url('/home') }}" class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Dashboard</a>
             </div>
             @else
                 <div class="">
@@ -56,7 +56,7 @@
             @if (Route::has('login'))
                 <div class="flex flex-wrap gap-4">
                     @auth
-                        <a href="{{ url('/dashboard') }}" class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Dashboard</a>
+                        <a href="{{ url('/home') }}" class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Dashboard</a>
                     @else
                         <a href="{{ route('login') }}" class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Log in</a>
 

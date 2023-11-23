@@ -18,19 +18,19 @@
                 class="nav-links duration-500 md:static absolut md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
                 <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 text-white">
                     <li>
-                        <a class="hover:text-sky-700" href="#">Profil</a>
+                        <a class="hover:text-sky-700" href="{{ url('/profil') }}">Profil</a>
                     </li>
                     <li>
-                        <a class="hover:text-sky-700" href="#">Galeri</a>
+                        <a class="hover:text-sky-700" href="{{ url('/galeri') }}">Galeri</a>
                     </li>
                     <li>
-                        <a class="hover:text-sky-700" href="#">Data Guru</a>
+                        <a class="hover:text-sky-700" href="{{ url('/dataGuru') }}">Data Guru</a>
                     </li>
                     <li>
-                        <a class="hover:text-sky-700" href="#">Kontak</a>
+                        <a class="hover:text-sky-700" href="{{ url('/kontak') }}">Kontak</a>
                     </li>
                     <li>
-                        <a class="hover:text-sky-700" href="#">Pendaftaran</a>
+                        <a class="hover:text-sky-700" href="{{ url('/pendaftaran') }}">Pendaftaran</a>
                     </li>
                 </ul>
             </div>

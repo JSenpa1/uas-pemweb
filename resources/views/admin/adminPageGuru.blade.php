@@ -1,5 +1,8 @@
 @extends('layouts.admin')
 
 @section('content')
-    <h1>Hello</h1>
+    @foreach ($gurus as $guru)
+        <h1>{{ $guru->nama }}</h1>
+    @endforeach
+    <button>Add more</button>
 @endsection

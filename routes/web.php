@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AccountController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\AdminPageController;
+use App\Http\Controllers\GuruController;
 
 /*
 |--------------------------------------------------------------------------
@@ -41,9 +42,10 @@ Route::get('/admin/dashboard', function() {
 
 Route::controller(AdminPageController::class)->group(function() {
     Route::get('/admin/menu', 'menu')->middleware(['auth', 'admin']);
-    Route::get('/admin/guru', 'guru')->middleware(['auth', 'admin']);
     Route::get('/admin/pendaftaran', 'pendaftaran')->middleware(['auth', 'admin']);
 });
+
+Route::resource('guru', GuruController::class);
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

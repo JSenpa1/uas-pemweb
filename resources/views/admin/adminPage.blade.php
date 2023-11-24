@@ -15,5 +15,5 @@
         </div>
     </div>
 
-    <center><a href="{{ url('/') }}" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Go To Admin Page</a></center>
+    <center><a href="{{ url('/admin/menu') }}" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Go To Admin Page</a></center>
 </x-app-layout>

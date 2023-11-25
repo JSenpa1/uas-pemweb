@@ -10,6 +10,7 @@
     {{-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap"
     rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"> --}}
+    {{-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css"  rel="stylesheet" /> --}}
 </head>
 <body>
         {{-- <span class="absolute text-white text-4xl top-5 left-4 cursor-pointer" onclick="Openbar()">
@@ -84,6 +85,15 @@
             <div class="h-full px-3 py-4 overflow-y-auto bg-gray-800">
             <ul class="space-y-2 font-medium">
                 <li>
+                    <div class="text-gray-100 text-xl">
+                    <div class="p-2.5 mt-1 flex items-center rounded-md ">
+                        <img src="{{ asset('logo.png') }}" alt="logo" class="w-14"/>
+                        <h1 class="text-[15px]  ml-3 text-xl text-gray-200 font-bold">Admin Dashboard</h1>
+                        <i class="bi bi-x ml-20 cursor-pointer lg:hidden" onclick="Openbar()"></i>
+                    </div>
+                    </div>
+                </li>
+                <li>
                     <a href="{{ url('/admin/dashboard') }}" class="flex items-center p-2  rounded-lg text-white  hover:bg-gray-700 group">
                         <svg class="w-5 h-5  transition duration-75 text-gray-400  group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 21">
                         <path d="M16.975 11H10V4.025a1 1 0 0 0-1.066-.998 8.5 8.5 0 1 0 9.039 9.039.999.999 0 0 0-1-1.066h.002Z"/>
@@ -129,6 +139,6 @@
           document.querySelector('.sidebar').classList.toggle('left-[-300px]')
         }
       </script> --}}
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+      {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script> --}}
 </body>
 </html>

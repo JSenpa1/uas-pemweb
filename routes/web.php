@@ -6,6 +6,7 @@ use App\Http\Controllers\AccountController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\AdminPageController;
 use App\Http\Controllers\GuruController;
+use App\Http\Controllers\PendaftaranController;
 
 /*
 |--------------------------------------------------------------------------
@@ -53,6 +54,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+Route::post('/pendaftaran/create', [PendaftaranController::class, 'create']);
 
 
 require __DIR__.'/auth.php';

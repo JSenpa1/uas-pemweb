@@ -45,7 +45,7 @@ Route::controller(AdminPageController::class)->group(function() {
     Route::get('/admin/pendaftaran', 'pendaftaran')->middleware(['auth', 'admin']);
 });
 
-Route::resource('guru', GuruController::class);
+Route::resource('guru', GuruController::class)->middleware(['auth', 'admin']);
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

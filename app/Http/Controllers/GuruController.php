@@ -46,7 +46,8 @@ class GuruController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        $guru = Guru::find($id);
+        return view('admin.form.GuruEditForm')->with('guru', $guru);
     }
 
     /**
@@ -54,7 +55,19 @@ class GuruController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+        $guru = Guru::find($id);
+        $guru->nama = $request->nama;
+        $guru->tempat_lahir = $request->tempat_lahir;
+        $guru->tanggal_lahir = $request->tanggal_lahir;
+        $guru->pendidikan = $request->pendidikan;
+        $guru->jabatan = $request->jabatan;
+        $guru->nomor_telepon = $request->nomor_telepon;
+        $foto = $request->file('foto');
+        $fileName = $foto->getClientOriginalName();
+        $foto->move(public_path('fotoGuru'), $fileName);
+        $guru->foto = $fileName;
+        $guru->save();
+        return redirect('/guru');
     }
 
     /**

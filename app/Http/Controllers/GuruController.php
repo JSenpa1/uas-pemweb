@@ -22,7 +22,7 @@ class GuruController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.form.GuruAddForm');
     }
 
     /**
@@ -30,7 +30,19 @@ class GuruController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $guru = new Guru();
+        $guru->nama = $request->nama;
+        $guru->tempat_lahir = $request->tempat_lahir;
+        $guru->tanggal_lahir = $request->tanggal_lahir;
+        $guru->pendidikan = $request->pendidikan;
+        $guru->jabatan = $request->jabatan;
+        $guru->nomor_telepon = $request->nomor_telepon;
+        $foto = $request->file('foto');
+        $fileName = $foto->getClientOriginalName();
+        $foto->move(public_path('fotoGuru'), $fileName);
+        $guru->foto = $fileName;
+        $guru->save();
+        return redirect('/guru');
     }
 
     /**
@@ -75,6 +87,8 @@ class GuruController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $guru = Guru::find($id);
+        $guru->delete();
+        return redirect('/guru');
     }
 }

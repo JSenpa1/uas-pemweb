@@ -14,19 +14,19 @@
             </div>
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="{{ asset('galeri/1.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 brightness-75" alt="...">
+                <img src="{{ asset('galeri/dua.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 brightness-75" alt="...">
             </div>
             <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="{{ asset('galeri/1.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 brightness-75" alt="...">
+                <img src="{{ asset('galeri/3.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 brightness-75" alt="...">
             </div>
             <!-- Item 4 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="{{ asset('galeri/1.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 brightness-75" alt="...">
+                <img src="{{ asset('galeri/4.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 brightness-75" alt="...">
             </div>
             <!-- Item 5 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="{{ asset('galeri/1.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 brightness-75" alt="...">
+                <img src="{{ asset('galeri/5.png') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 brightness-75" alt="...">
             </div>
         </div>
 
@@ -57,12 +57,13 @@
         </button>
     </div>
 
-<div class="container my-24 mx-auto md:px-6" style="background-color:#87BD2F;">
-  <section class="mb-32">
-    <div class="mb-16 flex flex-wrap">
+<div style="background-color:#87BD2F;">
+<div class="container mx-auto md:px-6">
+  <section class="">
+    <div class="flex flex-wrap pt-6">
       <div class="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-6/12 lg:pr-6">
         <div
-          class="ripple relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
+          class="ripple relative overflow-hidden md:rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
           data-te-ripple-init data-te-ripple-color="light">
           <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/028.jpg" class="w-full" alt="Louvre" />
           <a href="#!">
@@ -73,7 +74,7 @@
         </div>
       </div>
 
-      <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pl-6">
+      <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pl-6 md:pt-36">
       <h3 class="mb-4 text-2xl font-bold">Aktivitas menyenangkan!</h3>
         <div class="mb-4 flex items-center text-sm font-medium text-primary dark:text-primary-400">
         <p class="mb-6">
@@ -87,7 +88,7 @@
     <div class="mb-16 flex flex-wrap lg:flex-row-reverse">
       <div class="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-6/12 lg:pl-6">
         <div
-          class="ripple relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
+          class="ripple relative overflow-hidden md:rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
           data-te-ripple-init data-te-ripple-color="light">
           <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/033.jpg" class="w-full" alt="Louvre" />
           <a href="#!">
@@ -98,7 +99,7 @@
         </div>
       </div>
 
-      <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pr-6">
+      <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pr-6 md:pt-32">
         <h3 class="mb-4 text-2xl font-bold">Sekolah Al-Quran</h3>
         <div class="mb-4 flex items-center text-sm font-medium text-primary dark:text-primary-400">
         <p>
@@ -120,7 +121,7 @@
     <div class="flex flex-wrap">
       <div class="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-6/12 lg:pr-6">
         <div
-          class="ripple relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
+          class="ripple relative overflow-hidden md:rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
           data-te-ripple-init data-te-ripple-color="light">
           <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/079.jpg" class="w-full" alt="Louvre" />
           <a href="#!">
@@ -131,7 +132,7 @@
         </div>
       </div>
 
-      <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pl-6">
+      <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pl-6 md:pt-28">
       <h3 class="mb-4 text-2xl font-bold">Anak-anak yang gembira</h3>
     <div class="mb-4 flex items-center text-sm font-medium text-primary dark:text-primary-400">
         <p>
@@ -153,6 +154,7 @@
       </div>
     </div>
   </section>
+</div>
 </div>
 @stop
 

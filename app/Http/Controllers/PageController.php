@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Models\Guru;
+
 class PageController extends Controller
 {
     public function profil()
@@ -13,7 +15,8 @@ class PageController extends Controller
 
     public function dataGuru()
     {
-        return view('FrontEnd.dataGuru');
+        $gurus = Guru::all();
+        return view('FrontEnd.dataGuru')->with('gurus', $gurus);
     }
 
     public function galeri()

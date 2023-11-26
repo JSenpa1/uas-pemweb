@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    @vite('resources/css/app.css')
+    @vite(['resources/css/app.css','resources/js/app.js'])
 </head>
 <body>
     <div class="flex flex-col min-h-full" style="background-color:#87BD2F;">
     <header class="bg-blue-400">
         <nav class="flex justify-between items-center w-[92%] mx-auto">
             <div>
-                <img class="w-16 cursor-pointer" src="{{ asset('logo.png') }}" alt="...">
+                <a href="{{ url('/') }}">
+                    <img class="w-16 cursor-pointer" src="{{ asset('logo.png') }}" alt="logo">
+                </a>
             </div>
             <div
                 class="nav-links duration-500 md:static absolut md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">

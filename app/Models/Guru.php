@@ -11,5 +11,5 @@ class Guru extends Model
 
     protected $table = 'gurus';
     protected $primaryKey = 'id';
-    protected $fillable = ['nama', 'tempat_lahir', 'tanggal_lahir', 'pendidikan', 'jabatan', 'nomor_telepon'];
+    protected $fillable = ['nama', 'tempat_lahir', 'tanggal_lahir', 'pendidikan', 'jabatan', 'nomor_telepon', 'foto'];
 }

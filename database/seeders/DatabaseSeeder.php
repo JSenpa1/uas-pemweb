@@ -84,11 +84,11 @@ class DatabaseSeeder extends Seeder
         //     'nomor_telepon' => '08128511978',
         // ]);
 
-        // User::factory()->create([
-        //     'name' => 'Jojo',
-        //     'email' => 'jojo@gmail.com',
-        //     'password' => '12345678',
-        //     'usertype' => 'admin',
-        // ]);
+        User::factory()->create([
+            'name' => 'Jojo',
+            'email' => 'jojo@gmail.com',
+            'password' => '12345678',
+            'usertype' => 'admin',
+        ]);
     }
 }

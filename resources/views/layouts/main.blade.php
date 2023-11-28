@@ -99,7 +99,7 @@
         @yield('content')
     </div>
 
-    <footer class="bg-dark-400" style="background-color:#87BD2F;">
+    <footer class="bg-dark-400" style="background-color:#2B2A4C;">
         <div class="w-full mx-auto p-4 md:py-8">
             <div class="sm:flex sm:items-center sm:justify-between">
                 <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">

@@ -7,6 +7,7 @@ use App\Http\Controllers\PageController;
 use App\Http\Controllers\AdminPageController;
 use App\Http\Controllers\GuruController;
 use App\Http\Controllers\PendaftaranController;
+use App\Http\Controllers\KontakController;
 
 /*
 |--------------------------------------------------------------------------
@@ -56,5 +57,9 @@ Route::middleware('auth')->group(function () {
 
 Route::post('/pendaftaran/create', [PendaftaranController::class, 'create']);
 
+Route::controller(KontakController::class)->group(function() {
+    Route::post('/addPertanyaan', 'addPertanyaan');
+    Route::get('/admin/showPertanyaan', 'showPertanyaan')->middleware(['auth', 'admin']);
+});
 
 require __DIR__.'/auth.php';

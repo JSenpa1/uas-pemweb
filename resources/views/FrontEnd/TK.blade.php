@@ -83,8 +83,8 @@
       </div>
     </div>
 
-    <div class="mb-16 flex flex-wrap lg:flex-row-reverse">
-      <div class="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-6/12 lg:pl-6">
+    <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pr-6 md:pt-32" style="color:white;">
+        <h3 class="mb-4 text-2xl font-bold">Sekolah islami yang cocok untuk anak</h3>
         <div
           class="ripple relative overflow-hidden md:rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
           data-te-ripple-init data-te-ripple-color="light">

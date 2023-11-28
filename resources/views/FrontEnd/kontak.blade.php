@@ -23,5 +23,19 @@
                 </form>
             </div>
           </section>
+
+        <div class="bg-cover bg-center bg-fixed" style="background-image: url('{{ asset('galeri/1.png') }}');">
+            <section class="flex justify-center items-center h-screen flex-wrap">
+            <div class="bg-gray-900 flex flex-col justify-center items-center text-white font-Lexend w-100 h-200 m-8 p-5 rounded-md transition-transform transform hover:scale-103">
+                <h2 class="text-2xl mb-5">Alamat & Kontak</h2>
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63453.90460788182!2d106.58433689417558!3d-6.280942289134596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fc9e84f0230d%3A0xad8f68bf33d26d66!2sPAUD%20%2F%20TK%20Azzahra%20Islamic%20School!5e0!3m2!1sen!2sid!4v1700984286733!5m2!1sen!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <h4 class="mb-2">Lengkong Kulon, Pagedangan,<br />Tangerang Regency Banten 15331</h4>
+                <h4 class="mb-2">081380251978</h4>
+                <h4>Email</h4>
+            </div>
+            </section>
+        </div>
     </div>
 @stop

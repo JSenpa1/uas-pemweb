@@ -65,7 +65,7 @@
         <div
           class="ripple relative overflow-hidden md:rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
           data-te-ripple-init data-te-ripple-color="light">
-          <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/028.jpg" class="w-full" alt="Louvre" />
+          <img src="{{ asset('galeri/Activist.png') }}" class="w-full" alt="Louvre" />
           <a href="#!">
             <div
               class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
@@ -75,12 +75,10 @@
       </div>
 
       <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pl-6 md:pt-36" style="color:white;">
-        <h3 class="mb-4 text-2xl font-bold">Sekolah dengan ragam kegiatan</h3>
+      <h3 class="mb-4 text-2xl font-bold">Sekolah dengan ragam kegiatan</h3>
         <div class="mb-4 flex items-center text-sm font-medium text-primary dark:text-primary-400">
         <p class="mb-6">
-          Ut pretium ultricies dignissim. Sed sit amet mi eget urna placerat
-          vulputate. Ut vulputate est non quam dignissim elementum. Donec a
-          ullamcorper diam.
+        Walaupun mengedepankan Akademis, Kami tidak membiarkan murid Bosan dengan kegiatan belajar mengajar saja. Ragam aktivitas seperti Berenang, Melukis, Futsal, Dan masih banyak lainnya mampu menuntun Tumbuh Kembang anak anda tidak hanya secara akademis, namun juga mendorong potensi Kreativitas, Sportivitas, dan Kemampuan anak untuk Bersosialisasi anak anda
         </p>
       </div>
     </div>
@@ -90,7 +88,7 @@
         <div
           class="ripple relative overflow-hidden md:rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
           data-te-ripple-init data-te-ripple-color="light">
-          <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/033.jpg" class="w-full" alt="Louvre" />
+          <img src="{{ asset('galeri/3.png') }}" class="w-full" alt="Louvre" />
           <a href="#!">
             <div
               class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
@@ -99,21 +97,11 @@
         </div>
       </div>
 
-      <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pl-6 md:pt-28" style="color:white;">
-        <h3 class="mb-4 text-2xl font-bold">Ruang Kelas bervariasi</h3>
+      <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pr-6 md:pt-32" style="color:white;">
+        <h3 class="mb-4 text-2xl font-bold">Sekolah islami yang cocok untuk anak</h3>
         <div class="mb-4 flex items-center text-sm font-medium text-primary dark:text-primary-400">
         <p>
-          Duis sagittis, turpis in ullamcorper venenatis, ligula nibh porta
-          dui, sit amet rutrum enim massa in ante. Curabitur in justo at
-          lorem laoreet ultricies. Nunc ligula felis, sagittis eget nisi
-          vitae, sodales vestibulum purus. Vestibulum nibh ipsum, rhoncus
-          vel sagittis nec, placerat vel justo. Duis faucibus sapien eget
-          tortor finibus, a eleifend lectus dictum. Cras tempor convallis
-          magna id rhoncus. Suspendisse potenti. Nam mattis faucibus
-          imperdiet. Proin tempor lorem at neque tempus aliquet. Phasellus
-          at ex volutpat, varius arcu id, aliquam lectus. Vestibulum mattis
-          felis quis ex pharetra luctus. Etiam luctus sagittis massa, sed
-          iaculis est vehicula ut.
+        Ilmu akademis saja tidak akan cukup untuk membantu tumbuh kembang anak. Oleh karena itu, kami juga membekali anak dengan Ilmu-ilmu agama agar kelak anak anda menjadi pribadi yang memiliki ilmu beserta Akhlak yang baik, Etika yang baik sesuai dengan Ajaran-ajaran Islam. Karena pada dasarnya Ilmu tanpa didasari agama adalah nol.
         </p>
       </div>
     </div>
@@ -123,7 +111,7 @@
         <div
           class="ripple relative overflow-hidden md:rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
           data-te-ripple-init data-te-ripple-color="light">
-          <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/079.jpg" class="w-full" alt="Louvre" />
+          <img src="{{ asset('galeri/Madings.png') }}" class="w-full" alt="Louvre" />
           <a href="#!">
             <div
               class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
@@ -132,25 +120,11 @@
         </div>
       </div>
 
-      <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pl-6 md:pt-28">
-      <h3 class="mb-4 text-2xl font-bold">Anak-anak yang gembira</h3>
+      <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pl-6 md:pt-28" style="color:white;">
+      <h3 class="mb-4 text-2xl font-bold">Ruang Kelas bervariasi</h3>
     <div class="mb-4 flex items-center text-sm font-medium text-primary dark:text-primary-400">
         <p>
-          Sed sollicitudin purus sed nulla dignissim ullamcorper. Aenean
-          tincidunt vulputate libero, nec imperdiet sapien pulvinar id.
-          Nullam scelerisque odio vel lacus faucibus, tincidunt feugiat
-          augue ornare. Proin ac dui vel lectus eleifend vestibulum et
-          lobortis risus. Nullam in commodo sapien. Curabitur ut erat congue
-          sem finibus eleifend egestas eu metus. Sed ut dolor id magna
-          rutrum ultrices ut eget libero. Duis vel porttitor odio. Ut
-          pulvinar sed turpis ornare tincidunt. Donec luctus, mi euismod
-          dignissim malesuada, lacus lorem commodo leo, tristique blandit
-          ante mi id metus. Integer et vehicula leo, vitae interdum lectus.
-          Praesent nulla purus, commodo at euismod nec, blandit ultrices
-          erat. Aliquam eros ipsum, interdum et mattis vitae, faucibus vitae
-          justo. Nulla condimentum hendrerit leo, in feugiat ipsum
-          condimentum ac. Maecenas sed blandit dolor.
-        </p>
+        Kami tidak menghadirkan ruang kelas yang hanya itu-itu saja, melainkan kami memiliki beberapa ruang kelas bervariasi yang akan digunakan untuk kegiatan yang beragam pula.
       </div>
     </div>
   </section>

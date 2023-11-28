@@ -106,23 +106,6 @@
                     <img src="{{ asset('logo.png') }}" class="h-8" alt="Flowbite Logo" />
                     <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Taman Kanak-Kanak/PAUD Az-Zahra</span>
                 </a>
-                <ul class="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0 dark:text-white">
-                    <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">Profil</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">Galeri</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">Data Guru</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">Kontak</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:underline">Pendafaran</a>
-                    </li>
-                </ul>
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <span class="block text-sm sm:text-center dark:text-white">© 2023 TK Az-Zahra. All Rights Reserved.</span>

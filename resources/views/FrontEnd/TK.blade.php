@@ -83,7 +83,7 @@
       </div>
     </div>
 
-    <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pr-6 md:pt-32" style="color:white;">
+    {{-- <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pr-6 md:pt-32" style="color:white;">
         <h3 class="mb-4 text-2xl font-bold">Sekolah islami yang cocok untuk anak</h3>
         <div
           class="ripple relative overflow-hidden md:rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
@@ -95,16 +95,39 @@
             </div>
           </a>
         </div>
-      </div>
+      </div> --}}
 
-      <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pr-6 md:pt-32" style="color:white;">
+      {{-- <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pr-6 md:pt-32" style="color:white;">
         <h3 class="mb-4 text-2xl font-bold">Sekolah islami yang cocok untuk anak</h3>
         <div class="mb-4 flex items-center text-sm font-medium text-primary dark:text-primary-400">
         <p>
         Ilmu akademis saja tidak akan cukup untuk membantu tumbuh kembang anak. Oleh karena itu, kami juga membekali anak dengan Ilmu-ilmu agama agar kelak anak anda menjadi pribadi yang memiliki ilmu beserta Akhlak yang baik, Etika yang baik sesuai dengan Ajaran-ajaran Islam. Karena pada dasarnya Ilmu tanpa didasari agama adalah nol.
         </p>
       </div>
-    </div>
+    </div> --}}
+
+    <div class="mb-16 flex flex-wrap lg:flex-row-reverse">
+        <div class="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-6/12 lg:pl-6">
+          <div
+            class="ripple relative overflow-hidden md:rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
+            data-te-ripple-init data-te-ripple-color="light">
+            <img src="{{ asset('galeri/3.png') }}" class="w-full" alt="Louvre" />
+            <a href="#!">
+              <div
+                class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pr-6 md:pt-32" style="color:white;">
+          <h3 class="mb-4 text-2xl font-bold">Sekolah islami yang cocok untuk anak</h3>
+          <div class="mb-4 flex items-center text-sm font-medium text-primary dark:text-primary-400">
+          <p>
+          Ilmu akademis saja tidak akan cukup untuk membantu tumbuh kembang anak. Oleh karena itu, kami juga membekali anak dengan Ilmu-ilmu agama agar kelak anak anda menjadi pribadi yang memiliki ilmu beserta Akhlak yang baik, Etika yang baik sesuai dengan Ajaran-ajaran Islam. Karena pada dasarnya Ilmu tanpa didasari agama adalah nol.
+          </p>
+        </div>
+      </div>
 
     <div class="flex flex-wrap">
       <div class="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-6/12 lg:pr-6">

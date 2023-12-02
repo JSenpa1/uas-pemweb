@@ -3,7 +3,7 @@
 @section('content')
 <center>
     <div class="bg-sky-800">
-    <div class="flex flex-wrap gap-6 p-8 ml-10">
+    <div class="flex flex-wrap gap-6 p-8 ml-10 2xl:ml-36">
         @foreach ($gurus as $guru)
             <div class="flex flex-col items-center max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">

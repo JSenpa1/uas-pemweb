@@ -33,7 +33,7 @@ Route::get('/home', [AccountController::class, 'index'])->middleware(['auth', 'v
 Route::controller(PageController::class)->group(function() {
     Route::get('/profil', 'profil');
     Route::get('/dataGuru', 'dataGuru');
-    Route::get('/galeri', 'galeri');
+    Route::get('/galery', 'galery');
     Route::get('/kontak', 'kontak');
     Route::get('/pendaftaran', 'pendaftaran')->middleware(['auth', 'verified'])->name('pendaftaran');
 });

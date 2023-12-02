@@ -3,11 +3,11 @@
 @section('content')
 <center>
     <div class="bg-sky-800">
-        <div class="flex flex-wrap gap-6 p-8 md:ml-36 sm:ml-14">
+        <div class="flex flex-wrap gap-6 p-8 xl:ml-56 md:ml-18">
         @foreach ($gurus as $guru)
-            <div class="flex flex-col items-center max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div class="flex flex-col items-center max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 w-80">
                 <a href="#">
-                    <img class="rounded-lg w-full" src="{{ asset("fotoGuru/". $guru->foto) }}" alt="" />
+                    <img class="rounded-lg w-full mt-8" src="{{ asset("fotoGuru/". $guru->foto) }}" alt="" />
                 </a>
                 <div class="p-5">
                     <a href="#">

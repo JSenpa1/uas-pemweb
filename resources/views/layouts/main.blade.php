@@ -24,7 +24,7 @@
                         <a class="hover:text-sky-700" href="{{ url('/profil') }}">Profil</a>
                     </li>
                     <li>
-                        <a class="hover:text-sky-700" href="{{ url('/galeri') }}">Galeri</a>
+                        <a class="hover:text-sky-700" href="{{ url('/galery') }}">Galeri</a>
                     </li>
                     <li>
                         <a class="hover:text-sky-700" href="{{ url('/dataGuru') }}">Data Guru</a>

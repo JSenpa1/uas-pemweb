@@ -104,11 +104,11 @@
             <div class="sm:flex sm:items-center sm:justify-between">
                 <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                     <img src="{{ asset('logo.png') }}" class="h-8" alt="Flowbite Logo" />
-                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Taman Kanak-Kanak/PAUD Az-Zahra</span>
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Taman Kanak-Kanak/PAUD Az-Zahra</span>
                 </a>
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-            <span class="block text-sm sm:text-center dark:text-white">© 2023 TK Az-Zahra. All Rights Reserved.</span>
+            <span class="block text-sm sm:text-center text-white">© 2023 TK Az-Zahra. All Rights Reserved.</span>
         </div>
     </footer>
 

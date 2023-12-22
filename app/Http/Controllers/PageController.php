@@ -19,9 +19,9 @@ class PageController extends Controller
         return view('FrontEnd.dataGuru')->with('gurus', $gurus);
     }
 
-    public function galeri()
+    public function galery()
     {
-        return view('FrontEnd.galeri');
+        return view('FrontEnd.galery');
     }
 
     public function kontak()
